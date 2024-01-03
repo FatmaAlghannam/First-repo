@@ -28,8 +28,10 @@ class Main {
     System.out.println(LastName.endsWith("m"));
 
     double amountKD = 86; 
-  double amountUSD = amountKD * 3.25;
-  System.out.println( amountKD + "KD is "+ amountUSD + "USD");
+  double amountUSD = 100;
+    
+  System.out.println( amountKD + "KD is "+ amountUSD/3.25 + "USD");
+     System.out.println( amountUSD + "USD is "+ amountKD*2.97 + "KD");
 
     double amountEUR = amountKD * 2.97;
     System.out.println( amountKD + "KD is "+ amountEUR + "EUR");
